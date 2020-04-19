@@ -43,22 +43,22 @@ cvwcebt() {
 
 echo -e "${GreenBG} 深圳电信 回程路由 ${Font}"
 sleep 2
-	./besttrace -q1 -g cn 183.56.167.125
+	./besttrace -q1 -T -g cn 183.56.167.125
 
 
 echo -e "${GreenBG} 佛山电信 回程路由 ${Font}"
 sleep 2
-	./besttrace -q1 -g cn 119.145.148.29
+	./besttrace -q1 -T -g cn 119.145.148.29
 
 
 echo -e "${GreenBG} 上海电信 回程路由 ${Font}"
 sleep 2
-    ./besttrace -q1 -g cn 101.86.119.13
+    ./besttrace -q1 -T -g cn 101.86.119.13
 
 
 echo -e "${GreenBG} 广州电信 回程路由 ${Font}"
 sleep 2
-    ./besttrace -q1 -g cn 113.114.170.49
+    ./besttrace -q1 -T -g cn 113.114.170.49
 	
 	
 echo -e "${GreenBG} ----------------电信 回程路由 完 ---------------- ${Font}"
@@ -69,22 +69,22 @@ cvwcebta() {
 
 echo -e "${GreenBG} 深圳联通 回程路由 ${Font}"
 sleep 2
-	./besttrace -q1 -g cn 58.250.53.36
+	./besttrace -q1 -T -g cn 58.250.53.36
 
 
 echo -e "${GreenBG} 佛山联通 回程路由 ${Font}"
 sleep 2
-	./besttrace -q1 -g cn 220.199.132.25
+	./besttrace -q1 -T -g cn 220.199.132.25
 
 
 echo -e "${GreenBG} 上海联通 回程路由 ${Font}"
 sleep 2
-    ./besttrace -q1 -g cn 112.65.59.30
+    ./besttrace -q1 -T -g cn 112.65.59.30
 
 
 echo -e "${GreenBG} 广州联通 回程路由 ${Font}"
 sleep 2
-    ./besttrace -q1 -g cn 210.21.4.130
+    ./besttrace -q1 -T -g cn 210.21.4.130
 
 
 echo -e "${GreenBG} ----------------联通 回程路由 完 ---------------- ${Font}"
@@ -95,22 +95,22 @@ cvwcebtas() {
 
 echo -e "${GreenBG} 深圳移动 回程路由 ${Font}"
 sleep 2
-	./besttrace -q1 -g cn 120.237.112.98
+	./besttrace -q1 -T -g cn 120.237.112.98
 
 
 echo -e "${GreenBG} 佛山移动 回程路由 ${Font}"
 sleep 2
-	./besttrace -q1 -g cn 211.139.204.59
+	./besttrace -q1 -T -g cn 211.139.204.59
 
 
 echo -e "${GreenBG} 上海移动 回程路由 ${Font}"
 sleep 2
-    ./besttrace -q1 -g cn 183.195.41.174
+    ./besttrace -q1 -T -g cn 183.195.41.174
 
 
 echo -e "${GreenBG} 广州移动 回程路由 ${Font}"
 sleep 2
-    ./besttrace -q1 -g cn 218.204.242.181
+    ./besttrace -q1 -T -g cn 218.204.242.181
 
 
 echo -e "${GreenBG} ----------------移动 回程路由 完 ---------------- ${Font}"
